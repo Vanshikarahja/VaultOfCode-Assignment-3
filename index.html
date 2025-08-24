@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in | Video Editing Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1 class="logo">Editkaro.in</h1>
+            <ul class="nav-links">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content container">
+                <h2>Creative Video Editing & Social Media Marketing</h2>
+                <p>Bringing your vision to life, one frame at a time.</p>
+                <a href="#portfolio" class="cta-button">Explore Our Work</a>
+            </div>
+        </section>
+
+        <section id="portfolio" class="container">
+            <h2 class="section-title">Our Work</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="short-form">Short-Form Videos</button>
+                <button class="filter-btn" data-filter="long-form">Long-Form Videos</button>
+                <button class="filter-btn" data-filter="gaming">Gaming Videos</button>
+                <button class="filter-btn" data-filter="football">Football Edits</button>
+                <button class="filter-btn" data-filter="ecommerce">eCommerce Ads</button>
+                <button class="filter-btn" data-filter="documentary">Documentary Style</button>
+                <button class="filter-btn" data-filter="color-grading">Color Grading</button>
+                <button class="filter-btn" data-filter="anime">Anime Videos</button>
+                <button class="filter-btn" data-filter="ads">Ads</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item short-form" data-category="short-form">
+                    <img src="./reel.png" alt="Video 1" class="video-thumbnail">
+                    <div class="video-overlay">
+                        <span class="video-title">Short-Form Reel</span>
+                        <a href="https://youtu.be/8dG5dGwpVeo?si=p6XLhxm7MnuZXcW2" class="play-button" target="_blank">&#9658;</a>
+                    </div>
+                </div>
+                <div class="portfolio-item gaming" data-category="gaming">
+                    <img src="./games.jpg" alt="Video 2" class="video-thumbnail">
+                    <div class="video-overlay">
+                        <span class="video-title">Gaming Montage</span>
+                        <a href="https://youtu.be/3XpNwKfhSow?si=HBRbHdfYO-h5HKw1" class="play-button" target="_blank">&#9658;</a>
+                    </div>
+                </div>
+                <div class="portfolio-item football" data-category="football">
+                    <img src="./footballEdits.jpg" alt="Video 3" class="video-thumbnail">
+                    <div class="video-overlay">
+                        <span class="video-title">Football Edits</span>
+                        <a href="https://youtu.be/gvnz_ig6BGM?si=FcTspq41lxs0_17X" class="play-button" target="_blank">&#9658;</a>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section id="contact">
+            <div class="container contact-content">
+                <h2 class="section-title">Get in Touch</h2>
+                <p>Ready to create something amazing? Contact us for your next project!</p>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> contact@editkaro.in</p>
+                    <p><strong>Phone:</strong> +91-9876543210</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Editkaro.in. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
